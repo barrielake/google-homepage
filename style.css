@@ -11,3 +11,12 @@
 #search-div {
     text-align: center;
 }
+
+.search {
+    width: 482px;
+    height: 44px;
+    border-radius: 25px; 
+    border-style: solid; /*overrides default inner-shadow style*/
+    border-width: 1px;
+    border-color: #dfe1e5; 
+}
