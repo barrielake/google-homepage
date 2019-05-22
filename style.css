@@ -38,8 +38,23 @@
     margin: 0; 
     padding: 0; /*resets defaults*/
     text-align: right;
+    margin: 15px;
   }
 
-li {
-    display: inline;
+li { 
+    display: inline-block;  /*...These two lines make the text and images in*/
+    vertical-align: middle; /*...the list line up with each other */
+    margin-left: 10px; /*spreads out list items a bit */
+} 
+
+.nav-link {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+#profile-pic{
+    height: 32px;
+    border-radius: 50px;
 }
