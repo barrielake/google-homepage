@@ -4,7 +4,7 @@
 
 #logo-div {
     height:233px;
-    margin-top:89px;
+    margin-top:50px;
     text-align: center;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .search {
-    width: 482px;
+    width: 540px;
     height: 44px;
     border-radius: 25px; 
     border-style: solid; /*overrides default inner-shadow style*/
@@ -57,4 +57,13 @@ li {
 #profile-pic{
     height: 32px;
     border-radius: 50px;
+}
+
+#footer {
+    position: absolute;
+    bottom:0;  /*position absolute "pushes" the div up 0 px from the bottom */
+    left: 0; /*overrides default stying so that background-color goes all the way to the left */
+    background-color: #f2f2f2;
+    width: 100%; /*ensures background color fills the width of the page*/
+    font-family: arial,sans-serif;   
 }
