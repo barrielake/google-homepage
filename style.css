@@ -33,7 +33,7 @@
     color: #5F6368;
 }
 
-#navbar {
+.navbar {
     list-style-type: none; /*removes bullets from navbar list*/
     margin: 0; 
     padding: 0; /*resets defaults*/
@@ -54,6 +54,23 @@ li {
     color: rgba(0,0,0,0.87);
 }
 
+.left { /*this is added to navbar for the bottom left links */
+    float: left; /*float aligns them in a single row (text-align aligned them on different rows) */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right { /*this is for the bottom right links */
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom{ /*This is added to nav-link to change style of bottom links */
+    color: rgba(0,0,0,.54);
+    padding: 0 5px 0 5px; 
+}
+
 #profile-pic{
     height: 32px;
     border-radius: 50px;
@@ -65,5 +82,15 @@ li {
     left: 0; /*overrides default stying so that background-color goes all the way to the left */
     background-color: #f2f2f2;
     width: 100%; /*ensures background color fills the width of the page*/
-    font-family: arial,sans-serif;   
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.54);   
+}
+
+#country {
+    font-size: 15px;
+    padding: 0.8em 0 0.8em 1.8em;
+    border: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #e4e4e4;
 }
